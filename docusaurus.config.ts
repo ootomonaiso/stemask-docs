@@ -71,7 +71,7 @@ const config: Config = {
           position: 'left',
           label: 'ドキュメント',
         },
-        {to: '/blog', label: '作品集', position: 'left'},
+        // {to: '/blog', label: '作品集', position: 'left'},
         {
           href: 'https://github.com/ASK-STEM-official/stemask-unity-docs',
           label: 'GitHub',
