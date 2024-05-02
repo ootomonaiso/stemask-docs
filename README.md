@@ -4,4 +4,4 @@ Unityでゲームを開発するためのノウハウをまとめたドキュメ
 
 ## リンク
 
-ドキュメントサイト: https://ask-stem-official.github.io/stemask-unity-docs/
+ドキュメントサイト: https://ask-stem-official.github.io/stemask-docs/
