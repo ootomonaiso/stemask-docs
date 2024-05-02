@@ -1,6 +1,6 @@
-# STEMASK Unity Docs
+# STEMASK Docs
 
-Unityでゲームを開発するためのノウハウをまとめたドキュメントです。
+STEM部員のためのドキュメントサイトです。
 
 ## リンク
 
