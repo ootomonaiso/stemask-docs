@@ -3,20 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'STEMASK Unity Docs',
-  tagline: 'Unityを学びたい人へのドキュメントサイト',
+  title: 'STEMASK Docs',
+  tagline: 'STEM部員のためのドキュメントサイト',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://ask-stem-official.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/stemask-unity-docs/',
+  baseUrl: '/stemask-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'ASK-STEM-official', // Usually your GitHub org/user name.
-  projectName: 'stemask-unity-docs', // Usually your repo name.
+  projectName: 'stemask-docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,7 +39,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/ASK-STEM-official/stemask-unity-docs/tree/main/',
+          editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
@@ -55,6 +55,19 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'unity-docs',
+        path: 'unity-docs',
+        routeBasePath: 'unity-docs',
+        sidebarPath: './sidebars.ts',
+        // ... other options
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -62,17 +75,21 @@ const config: Config = {
       defaultMode: 'dark'
     },
     navbar: {
-      title: 'STEMASK Unity Docs',
+      title: 'STEMASK Docs',
       logo: {
         alt: 'Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: "/docs/intro",
           position: 'left',
-          label: 'ドキュメント',
+          label: 'How to Edit',
+        },
+        {
+          to: "/unity-docs/intro",
+          position: 'left',
+          label: 'Unity',
         },
         // {to: '/blog', label: '作品集', position: 'left'},
         {
@@ -86,15 +103,18 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'ドキュメント',
+          title: 'How to Edit',
+        },
+        {
+          title: 'Unity Docs',
           items: [
             {
               label: 'はじめに',
-              to: '/docs/intro',
+              to: '/unity-docs/intro',
             },
             {
               label: '環境構築',
-              to: '/docs/category/環境構築',
+              to: '/unity-docs/category/環境構築',
             },
           ],
         },
