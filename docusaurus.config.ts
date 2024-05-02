@@ -63,6 +63,7 @@ const config: Config = {
         path: 'unity-docs',
         routeBasePath: 'unity-docs',
         sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',
         // ... other options
       },
     ],
