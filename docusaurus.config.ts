@@ -67,6 +67,17 @@ const config: Config = {
         // ... other options
       },
     ],
+    [
+    '@docusaurus/plugin-content-docs',
+    {
+      id: 'IT-docs',
+      path: 'IT-docs',
+      routeBasePath: 'IT-docs',
+      sidebarPath: './sidebars.ts',
+      editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',
+      // ... other options
+    },
+    ],
   ],
 
   themeConfig: {
