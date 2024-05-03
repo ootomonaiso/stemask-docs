@@ -7,16 +7,16 @@ const config: Config = {
   tagline: 'STEM部員のためのドキュメントサイト',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
+  // サイトのURL
   url: 'https://ask-stem-official.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // GitHub pages環境の場合'/<リポジトリ名>/' を入力
   baseUrl: '/stemask-docs/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ASK-STEM-official', // Usually your GitHub org/user name.
-  projectName: 'stemask-docs', // Usually your repo name.
+  // GitHub Pagesのデプロイ構成
+  // GitHub Pagesを使用していない場合は不要
+  organizationName: 'ASK-STEM-official', // ユーザーネーム
+  projectName: 'stemask-docs', // リポジトリ名
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -56,14 +56,14 @@ const config: Config = {
   ],
 
   plugins: [
-    [
+    [//ここのかっこで括られている部分をコピペして設定
       '@docusaurus/plugin-content-docs',
       {
         id: 'unity-docs',
         path: 'unity-docs',
         routeBasePath: 'unity-docs',
-        sidebarPath: './sidebars.ts',
-        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',
+        sidebarPath: './sidebars.ts',//サイドバーパス
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
       },
     ],
@@ -73,7 +73,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/stemask-docs-social-card.jpg',
     colorMode: {
-      defaultMode: 'dark'
+      defaultMode: 'dark'//デフォルトのカラーテーマ
     },
     navbar: {
       title: 'STEMASK Docs',
@@ -103,15 +103,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
+        {//この中かっこをコピペでカテゴリトップを作成
           title: 'How to Edit',
         },
         {
           title: 'Unity Docs',
-          items: [
+          items: [//カテゴリ内のコンテンツの表示はこの部分を参考
             {
               label: 'はじめに',
-              to: '/unity-docs/intro',
+              to: '/unity-docs/intro',//内部リンクである場合はto:を使う
             },
             {
               label: '環境構築',
@@ -124,7 +124,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/ASK-STEM-official/stemask-unity-docs',
+              href: 'https://github.com/ASK-STEM-official/stemask-unity-docs',//外部リンクはhref要素で宣言
             },
           ],
         },
