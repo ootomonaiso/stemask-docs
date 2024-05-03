@@ -8,7 +8,7 @@ MySQL Workbenchはデータベース問い合わせ言語である`SQL`を用い
 
 ## インストーラーをダウンロード
 ### MySQL Workbench Installer 8.0.35
-![MySQL Workbenchインストーラーダウンロードサイト](./images/11.jpg)
+![MySQL Workbenchインストーラーダウンロードサイト](./images/11.png)
 [MySQL Workbench公式サイト](https://dev.mysql.com/downloads/windows/installer/8.0.html)にアクセスし、表示されるインストーラーのバージョンなどを確認し、インストーラーをダウンロードしてください。
 
 :::info 今回利用するバージョンについて

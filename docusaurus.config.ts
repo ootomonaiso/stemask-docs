@@ -131,6 +131,15 @@ const config: Config = {
           ],
         },
         {
+          title: 'IT-Software Docs',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/IT-docs/intro',//内部リンクである場合はto:を使う
+            },
+          ],
+        },
+        {
           title: '関連リンク',
           items: [
             {
