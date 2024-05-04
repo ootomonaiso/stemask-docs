@@ -103,6 +103,11 @@ const config: Config = {
           position: 'left',
           label: 'Unity',
         },
+        {
+          to: "/IT-docs/intro",
+          position: 'left',
+          label: 'IT-Software',
+        },
         // {to: '/blog', label: '作品集', position: 'left'},
         {
           href: 'https://github.com/ASK-STEM-official/stemask-unity-docs',
