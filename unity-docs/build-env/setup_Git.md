@@ -87,7 +87,7 @@ VSCodeを日本語化します。筆者の画面はもうすでに日本語に�
 
 gitのインストール先を開きます変えていなければProgram Files>Gitにあります。
 
-設定ファイルの中身をいじくります。<span style="color: yellow; ">Gitファイルの中にあるetcファイルを開きます。その中にあるgitconfigをVSCodeなどのテキストエディタで開いてください</span>
+設定ファイルの中身をいじくります。<span style="color: red; ">Gitファイルの中にあるetcファイルを開きます。その中にあるgitconfigをVSCodeなどのテキストエディタで開いてください</span>
 
 一番下の行を改行して下のテキストを入れてください
 
