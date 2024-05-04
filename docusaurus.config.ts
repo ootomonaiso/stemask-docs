@@ -99,7 +99,29 @@ const config: Config = {
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
       },
-    ],    
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'ET-docs',
+        path: 'ET-docs',
+        routeBasePath: 'ET-docs',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'rego-docs',
+        path: 'rego-docs',
+        routeBasePath: 'rego-docs',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
+        // ... other options
+      },
+    ],   
   ],
 
   themeConfig: {
@@ -123,7 +145,7 @@ const config: Config = {
         {
           to: "/beginners/intro",
           position: 'left',
-          label: 'beginners',
+          label: 'Beginners',
         },
         {
           to: "/unity-docs/intro",
@@ -140,6 +162,17 @@ const config: Config = {
           position: 'left',
           label: 'Web',
         },
+        {
+          to: "/ET-docs/intro",
+          position: 'left',
+          label: 'ETロボ',
+        },
+        {
+          to: "/rego-docs/intro",
+          position: 'left',
+          label: 'ロボ',
+        },
+        
 
         // {to: '/blog', label: '作品集', position: 'left'},
         {
@@ -183,6 +216,12 @@ const config: Config = {
         },
         {
           title: 'Web docs',
+        },
+        {
+          title: 'ETロボ docs',
+        },
+        {
+          title: 'ロボ docs',
         },
         {
           title: '関連リンク',
