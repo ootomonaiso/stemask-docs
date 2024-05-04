@@ -67,6 +67,39 @@ const config: Config = {
         // ... other options
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'IT-docs',
+        path: 'IT-docs',
+        routeBasePath: 'IT-docs',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
+      // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+     {
+        id: 'web-docs',
+        path: 'web-docs',
+        routeBasePath: 'web-docs',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
+        // ... other options
+      },
+    ], 
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'beginners',
+        path: 'beginners',
+        routeBasePath: 'beginners',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
+        // ... other options
+      },
+    ],    
   ],
 
   themeConfig: {
@@ -88,13 +121,29 @@ const config: Config = {
           label: 'How to Edit',
         },
         {
+          to: "/beginners/intro",
+          position: 'left',
+          label: 'beginners',
+        },
+        {
           to: "/unity-docs/intro",
           position: 'left',
           label: 'Unity',
         },
+        {
+          to: "/IT-docs/intro",
+          position: 'left',
+          label: 'IT',
+        },
+        {
+          to: "/web-docs/intro",
+          position: 'left',
+          label: 'Web',
+        },
+
         // {to: '/blog', label: '作品集', position: 'left'},
         {
-          href: 'https://github.com/ASK-STEM-official/stemask-unity-docs',
+          href: 'https://github.com/ASK-STEM-official/stemask-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -120,11 +169,27 @@ const config: Config = {
           ],
         },
         {
+          title: 'IT Docs',
+          items: [//カテゴリ内のコンテンツの表示はこの部分を参考
+            {
+              label: 'はじめに',
+              to: '/IT-docs/intro',//内部リンクである場合はto:を使う
+            },
+            {
+              label: '環境構築',
+              to: '/IT-docs/category/環境構築',
+            },
+          ],
+        },
+        {
+          title: 'Web docs',
+        },
+        {
           title: '関連リンク',
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/ASK-STEM-official/stemask-unity-docs',//外部リンクはhref要素で宣言
+              href: 'https://github.com/ASK-STEM-official/stemask-docs',//外部リンクはhref要素で宣言
             },
           ],
         },
