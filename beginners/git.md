@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+description: Gitってなんだろう
+---
 
 # Git用語解説
 ## Gitとは
