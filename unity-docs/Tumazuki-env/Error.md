@@ -20,7 +20,7 @@ MissingComponentExecption:」というエラーです。
 ![ErrorMsg](./images/unityhub-change-lang-1.jpg)<!-- エラーメッセージ画像未変更 -->
 
 この場合スクリプトに問題がない場合が多く、躓きやすいです。
-エラーの名称は「Missing＝ない」「Component＝コンポーネント」「Execption＝例外」という意味。
+エラーの名称は「Missing＝ない」　「Component＝コンポーネント」　「Execption＝例外」という意味。
 
 この原因はオブジェクトにRigidbodyのコンポーネントがついていないからです
 「Inspecter」でRigidbodyのコンポーネントがないはずなので追加しましょう。
