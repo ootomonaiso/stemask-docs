@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'STEMASK Docs',
   tagline: 'STEM部員のためのドキュメントサイト',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/stem.ico',
 
   // サイトのURL
   url: 'https://ask-stem-official.github.io',
@@ -134,7 +134,7 @@ const config: Config = {
       title: 'STEMASK Docs',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.svg',
+        src: 'img/stem.svg',
       },
       items: [
         {
