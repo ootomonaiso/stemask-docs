@@ -3,6 +3,7 @@ sidebar_position: 3
 description: エラーの原因
 ---
 
+# エラーの原因
 エラーの見方を解説します
 
 ## エラーログ
