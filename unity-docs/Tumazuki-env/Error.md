@@ -7,7 +7,7 @@ description: エラーの原因
 エラーの見方を解説します
 
 ## エラーログ
-![UnityHublns](./images/unityhub-change-lang-1.jpg)<!-- UnityHubInsの画像未変更 -->
+![UnityHublns](./images/2.png)<!-- UnityHubInsの画像未変更 -->
 赤い三角のメッセージがエラーログと呼ばれるものです
 ここに、タイムスタンプ、エラー名称、エラー概要が表示されています。
 タップするとエラーがあるスクリプトを表示できるので参考にしましょう。
@@ -17,7 +17,7 @@ google翻訳や検索して参考記事を見つけるなどいろいろ解決�
 MissingComponentExecption:」というエラーです。
 恐らくPlayerを動かしたいときに一番よく出ます。
 
-![ErrorMsg](./images/unityhub-change-lang-1.jpg)<!-- エラーメッセージ画像未変更 -->
+![ErrorMsg](./images/3.png)<!-- エラーメッセージ画像未変更 -->
 
 この場合スクリプトに問題がない場合が多く、躓きやすいです。
 エラーの名称は「Missing＝ない」　「Component＝コンポーネント」　「Execption＝例外」という意味。
@@ -25,7 +25,7 @@ MissingComponentExecption:」というエラーです。
 この原因はオブジェクトにRigidbodyのコンポーネントがついていないからです
 「Inspecter」でRigidbodyのコンポーネントがないはずなので追加しましょう。
 
-![Component](./images/unityhub-change-lang-1.jpg)<!-- コンポーネント未変更 -->
+![Component](./images/4.png)<!-- コンポーネント未変更 -->
 「Add Component」から「Rigidbody」をコンポーネントのオブジェクトに追加すると、エラーは解消されるはずです
 
 ## C#スクリプト名とクラス名の不一致によるエラー
