@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'STEMASK Docs',
   tagline: 'STEM部員のためのドキュメントサイト',
-  favicon: 'img/stem.ico',//元アイコンは削除していません
+  favicon: 'img/favicon.ico',
 
   // サイトのURL
   url: 'https://ask-stem-official.github.io',
@@ -67,28 +67,6 @@ const config: Config = {
         // ... other options
       },
     ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'IT-docs',
-        path: 'IT-docs',
-        routeBasePath: 'IT-docs',
-        sidebarPath: './sidebars.ts',
-        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',
-        // ... other options
-      },
-    ],
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'beginners',
-        path: 'beginners',
-        routeBasePath: 'beginners',
-        sidebarPath: './sidebars.ts',
-        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
-        // ... other options
-      },
-    ],
   ],
 
   themeConfig: {
@@ -101,7 +79,7 @@ const config: Config = {
       title: 'STEMASK Docs',
       logo: {
         alt: 'Logo',
-        src: 'img/stem.svg',//元アイコンは削除していません
+        src: 'img/logo.svg',
       },
       items: [
         {
@@ -110,19 +88,9 @@ const config: Config = {
           label: 'How to Edit',
         },
         {
-          to: "/IT-docs/intro",
-          position: 'left',
-          label: '',
-        },
-        {
           to: "/unity-docs/intro",
           position: 'left',
           label: 'Unity',
-        },
-        {
-          to: "/beginners/intro",
-          position: 'left',
-          label: 'beginners',
         },
         // {to: '/blog', label: '作品集', position: 'left'},
         {
@@ -139,15 +107,6 @@ const config: Config = {
           title: 'How to Edit',
         },
         {
-          title: 'beginners',
-          items: [
-            {
-              label: 'はじめに',
-              to: '/beginners/intro',
-            },
-          ],
-        },
-        {
           title: 'Unity Docs',
           items: [//カテゴリ内のコンテンツの表示はこの部分を参考
             {
@@ -158,22 +117,8 @@ const config: Config = {
               label: '環境構築',
               to: '/unity-docs/category/環境構築',
             },
-            {
-              label: 'よくあるつまずき',
-              to: '/unity-docs/category/よくあるつまずき',
-            },
           ],
         },
-        {
-          title: 'IT-Software Docs',
-          items: [
-            {
-              label: 'はじめに',
-              to: '/IT-docs/intro',
-            },
-          ],
-        },
-
         {
           title: '関連リンク',
           items: [
