@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 description: 先輩を頼る
 ---
 
