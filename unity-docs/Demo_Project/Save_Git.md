@@ -12,7 +12,7 @@ description: この章を読む前に
 まずはGitを使うためにVSCodeを起動します。
 
 VSCodeを開いたら、Gitのセットアップで作ったフォルダを開きます。
-左上の「ファイル(F)」から「フォルダーを開く… 」を選択し、[Git・GitHub](https://ask-stem-official.github.io/stemask-docs/unity-docs/build-env/setup_Git)の準備の最後で作ったフォルダを選んでください。
+左上の「ファイル(F)」から「フォルダーを開く… 」を選択し、[Git,GitHub](https://ask-stem-official.github.io/stemask-docs/unity-docs/build-env/setup_Git)の準備の最後で作ったフォルダを選んでください。
 左側にある「ソース管理」のアイコンに数字が付いてたり、Git関連の通知が来てたりしたら当たりです。
 
 ## 2.gitignoreの設定
