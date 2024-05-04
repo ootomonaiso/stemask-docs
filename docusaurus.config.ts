@@ -68,15 +68,26 @@ const config: Config = {
       },
     ],
     [
-    '@docusaurus/plugin-content-docs',
-    {
-      id: 'IT-docs',
-      path: 'IT-docs',
-      routeBasePath: 'IT-docs',
-      sidebarPath: './sidebars.ts',
-      editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',
-      // ... other options
-    },
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'IT-docs',
+        path: 'IT-docs',
+        routeBasePath: 'IT-docs',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'beginners',
+        path: 'beginners',
+        routeBasePath: 'beginners',
+        sidebarPath: './sidebars.ts',
+        editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
+        // ... other options
+      },
     ],
   ],
 
@@ -99,14 +110,19 @@ const config: Config = {
           label: 'How to Edit',
         },
         {
+          to: "/IT-docs/intro",
+          position: 'left',
+          label: '',
+        },
+        {
           to: "/unity-docs/intro",
           position: 'left',
           label: 'Unity',
         },
         {
-          to: "/IT-docs/intro",
+          to: "/beginners/intro",
           position: 'left',
-          label: 'IT-Software',
+          label: 'beginners',
         },
         // {to: '/blog', label: '作品集', position: 'left'},
         {
@@ -144,7 +160,16 @@ const config: Config = {
           items: [
             {
               label: 'はじめに',
-              to: '/IT-docs/intro',//内部リンクである場合はto:を使う
+              to: '/IT-docs/intro',
+            },
+          ],
+        },
+        {
+          title: 'beginners',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/beginners/intro',
             },
           ],
         },

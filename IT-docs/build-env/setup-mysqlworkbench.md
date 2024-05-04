@@ -3,7 +3,7 @@ sidebar_position: 1
 description: MySQL Workbenchをインストールしてデータベース管理の一歩を踏み出そう
 ---
 
-# MySQL Workbenchのセットアップ
+# MySQL Workbenchのインストール
 
 MySQL Workbenchはデータベース問い合わせ言語である`SQL`を用いた管理システムの一つです。オラクル社が現在管理しています。YoutubeやTwitterなどの大規模サービスでも利用されているソフトウェアです。
 
@@ -21,8 +21,33 @@ OS:Microsoft Windows
 インストーラーが2つ存在していますが下のインストーラーの方を選んでください。
 :::
 
-![MySQL Workbenchインストーラーダウンロードサイト](./images/12.jpg)
+![MySQL Workbenchインストーラー Oracle](./images/12.jpg)
 
 そうするとこのようにOracleのアカウントでログインするかサインアップさせようとするページへ遷移します。Oracleのアカウントがなくてもインストーラーをダウンロードすることができるので、下の`No thanks,just start my download`を選択してください。
 
-## eclipseIDE var.4.26.0
+## MySQL Workbenchをセットアップ
+ダウンロードフォルダにある`mysql-installer-community-8.0.35.0.msi`を起動してください。そうするとMySQL Installerが開きます。
+
+### タイプ設定をする
+![MySQL Workbenchインストーラー open](./images/13.jpg)
+インストーラーが起動するとこのようなウィンドウが開きます。`Choosing a Setup Type`を**Full**に切り替えてください。
+
+### Installationの実行
+![MySQL Workbenchインストーラー Installation](./images/13.jpg)
+インストールされるパッケージは以下の通り
+- MySQL Server 8.0.35
+- MySQL Workbench 8.0.34
+- MySQL Shell 8.0.35
+- MySQL Router 8.0.35
+- MySQL Documentation 8.0.35
+- Samples and Examples 8.0.35
+タイプ設定の時に**Full**を指定していないとこれがすべてインストールされません。
+以上のパッケージのインストールがスケジュールされていることを確認し、**Execute**をクリックしてインストールしてください。
+
+:::warning
+インストールが失敗してしまい、インストールが中断されて次へ進めなくなってしまう事例があります。その場合左側に表示されるアイコンをクリックしたら再度インストールの試行ができたと思います。
+:::
+
+:::danger
+インストールが終わった後、Nextボタンを連打すると、元々Nextボタンがあったはずの場所にCancelボタンが
+:::
