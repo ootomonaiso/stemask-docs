@@ -139,6 +139,15 @@ const config: Config = {
           title: 'How to Edit',
         },
         {
+          title: 'beginners',
+          items: [
+            {
+              label: 'はじめに',
+              to: '/beginners/intro',
+            },
+          ],
+        },
+        {
           title: 'Unity Docs',
           items: [//カテゴリ内のコンテンツの表示はこの部分を参考
             {
@@ -164,15 +173,7 @@ const config: Config = {
             },
           ],
         },
-        {
-          title: 'beginners',
-          items: [
-            {
-              label: 'はじめに',
-              to: '/beginners/intro',
-            },
-          ],
-        },
+
         {
           title: '関連リンク',
           items: [
