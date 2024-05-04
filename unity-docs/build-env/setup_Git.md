@@ -57,7 +57,7 @@ VSCodeを日本語化します。筆者の画面はもうすでに日本語に�
 ![Git25](./images/25.jpg)
 
 左側のタイルマークをクリックして拡張機能の画面を開きます。
-その画面の検索ボックスにJapanと入力し、赤丸でかこった言語パックを探してください。
+その画面の検索ボックスに<font color="yellow">Japan</font>と入力し、赤丸でかこった言語パックを探してください。
 
 ![Git26](./images/26.jpg)
 
@@ -105,9 +105,9 @@ Create new repositoryという項目があるはずです。それをクリッ�
 ![Git34](./images/34.jpg)
 
 リポジトリ名はUnity_Projectなど、用途に合わせて決めてください。(要検討)日本語は使えません。
-公開範囲はPublicを指定してください
+公開範囲は<font color="yellow">Public</font>を指定してください
 
-上記の設定を確認したら右下にあるCreate repositoryを押してリポジトリを作成してください
+上記の設定を確認したら右下にある<font color="yellow">Create repository</font>を押してリポジトリを作成してください
 
 ## VSCode側で設定
 
@@ -115,7 +115,7 @@ VSCodeを開きます
 
 ![Git32](./images/32.jpg)
 
-ようこそ画面に出てくるGitリポジトリのクローンを選択します
+ようこそ画面に出てくる<font color="yellow">Gitリポジトリのクローン</font>を選択します
 
 ![Git33](./images/33.jpg)
 
