@@ -30,5 +30,5 @@ Gitではファイルの状態を保存できるのですが、「どのファ�
 既にこれを解決できる設定が公開されているので、ありがたく使わせていただきましょう。
 
 https://github.com/github/gitignore/blob/main/Unity.gitignore
-Unityのプロジェクトフォルダ(Assetsとかがあるとこ)に「.gitignore」というファイルを作り、
+Unityのプロジェクトフォルダ(Assetsとかがあるとこ)に「<font color="yellow">.gitignore</font>」というファイルを作り、
 先ほどのリンクのファイルをコピペすれば設定完了です。うまくいけば保存されるファイルの数が一気に２桁とかに減っているはずです。
