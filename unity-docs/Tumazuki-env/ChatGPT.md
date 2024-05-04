@@ -25,4 +25,6 @@ chatgtを使ったコード生成の様子
 
 コードが生成されているのが分かりますね
 
-[ChatGPT](https://chat.openai.com)を使ってAIをうまく活用し、自分の力にしましょう！！
+[https://chat.openai.com](https://chat.openai.com)
+cahatgptのリンクを貼っておきます
+AIをうまく活用して自分の力にしましょう！！
