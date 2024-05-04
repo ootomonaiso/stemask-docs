@@ -27,6 +27,6 @@ LEGO Robot班で生きていくために読んでおいた方がいい文章で�
 - 今までにスクラッチなどのブロック組み合わせ型プログラムをやったことがある人
 
 # ロボ班プログラマー向け文章
-続きは[privateリポジトリ]([https://pages.github.com/](https://github.com/ASK-STEM-official/ROBOT_blockly/blob/master/document/home.md)) で（
+続きは[privateリポジトリ](https://github.com/ASK-STEM-official/ROBOT_blockly/blob/master/document/home.md) で（
 
 <sub>一応競技だし技術は隠さないとね</sub>
