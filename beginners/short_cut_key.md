@@ -25,6 +25,7 @@ ctrlやshift、alt、windwosキーを先に押してからアルファベット�
 ![key](./images/publicdomainq-0010284piz.jpg)
 
 ## よく使うショートカットキー
+
 | ショートカット | 何ができる |
 | - | - |
 | ctrl+c ctrl+v | コピーとペースト |
