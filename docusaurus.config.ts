@@ -199,6 +199,14 @@ const config: Config = {
               label: '環境構築',
               to: '/unity-docs/category/環境構築',
             },
+            {
+              label: 'よくあるつまずき',
+              to: '/unity-docs/category/よくあるつまずき',
+            },
+            {
+              label: 'デモプロジェクトの作成',
+              to: '/unity-docs/category/デモプロジェクトの作成',
+            },
           ],
         },
         {
