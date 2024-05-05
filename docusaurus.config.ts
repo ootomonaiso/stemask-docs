@@ -80,7 +80,7 @@ const config: Config = {
     ],
     [
       '@docusaurus/plugin-content-docs',
-     {
+    {
         id: 'web-docs',
         path: 'web-docs',
         routeBasePath: 'web-docs',
