@@ -114,9 +114,9 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'lego-docs',
-        path: 'lego-docs',
-        routeBasePath: 'lego-docs',
+        id: 'LEGO-docs',
+        path: 'LEGO-docs',
+        routeBasePath: 'LEGO-docs',
         sidebarPath: './sidebars.ts',
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
@@ -168,9 +168,9 @@ const config: Config = {
           label: 'ETロボ',
         },
         {
-          to: "/lego-docs/intro",
+          to: "/LEGO-docs/intro",
           position: 'left',
-          label: 'ロボ',
+          label: 'LEGOロボ',
         },
         
 
