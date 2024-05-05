@@ -165,12 +165,12 @@ const config: Config = {
         {
           to: "/ET-docs/intro",
           position: 'left',
-          label: 'ETロボ',
+          label: 'ETロボコン',
         },
         {
           to: "/LEGO-docs/intro",
           position: 'left',
-          label: 'LEGOロボ',
+          label: 'LEGOロボット',
         },
         
 
@@ -226,10 +226,10 @@ const config: Config = {
           title: 'Web docs',
         },
         {
-          title: 'ETロボ docs',
+          title: 'ETロボコン docs',
         },
         {
-          title: 'ロボ docs',
+          title: 'LEGOロボット docs',
         },
         {
           title: '関連リンク',
