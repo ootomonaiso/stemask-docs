@@ -32,7 +32,9 @@ ctrlやshift、alt、windwosキーを先に押してからアルファベット�
 | ctrl+z ctrl+y | 元に戻す 。やり直す。間違って消した場合は落ち着いて一度だけctrl+zを押す。その元に戻した操作をさらに戻したい場合はctrl+yを押す。 |
 | ctrl+a | すべて選択。 |
 | ctrl+x | 切り取り |
-| ctrl+t | ブラウザで隣のタブに移動 |
+| ctrl+tab | ブラウザで隣のタブに移動 |
+| ctrl+shift+tab | ブラウザで左隣のタブに移動 |
+| ctrl+t | 新規タブ |
 | ctrl+shift+esc | タスクマネージャー |
 | ctrl+shift+t | ブラウザで閉じたタブを開きなおす |
 | ctrl+alt+delete | セキュリティオプション |
