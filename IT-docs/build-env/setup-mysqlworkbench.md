@@ -51,3 +51,4 @@ OS:Microsoft Windows
 :::danger
 インストールが終わった後、Nextボタンを連打すると、元々Nextボタンがあったはずの場所にCancelボタンが出現し、MySQL Serverのセットアップがキャンセルされてしまいます。MySQL Serverのセットアップがされていないと動きません。
 :::
+
