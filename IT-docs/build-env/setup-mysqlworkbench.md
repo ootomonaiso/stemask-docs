@@ -5,7 +5,9 @@ description: MySQL Workbenchをインストールしてデータベース管理�
 
 # MySQL Workbenchのインストール
 
-MySQL Workbenchはデータベース問い合わせ言語である`SQL`を用いた管理システムの一つです。オラクル社が現在管理しています。YoutubeやTwitterなどの大規模サービスでも利用されているソフトウェアです。
+MySQL Workbenchはデータベース問い合わせ言語である`SQL`を用いた管理システムの一つで、現在はオラクル社が管理しています。
+
+YoutubeやTwitterなどの大規模サービスでも利用されているソフトウェアです。
 
 ## インストーラーをダウンロード
 
