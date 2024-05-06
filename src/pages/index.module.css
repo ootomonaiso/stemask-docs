@@ -10,6 +10,16 @@
   overflow: hidden;
 }
 
+.docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;

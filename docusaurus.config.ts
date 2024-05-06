@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'STEMASK Docs',
-  tagline: 'STEM部員のためのドキュメントサイト',
+  tagline: 'Docuements for STEM members',
   favicon: 'img/stem.ico',
 
   // サイトのURL
@@ -80,7 +80,7 @@ const config: Config = {
     ],
     [
       '@docusaurus/plugin-content-docs',
-     {
+    {
         id: 'web-docs',
         path: 'web-docs',
         routeBasePath: 'web-docs',
@@ -114,9 +114,9 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'lego-docs',
-        path: 'lego-docs',
-        routeBasePath: 'lego-docs',
+        id: 'LEGO-docs',
+        path: 'LEGO-docs',
+        routeBasePath: 'LEGO-docs',
         sidebarPath: './sidebars.ts',
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
@@ -165,12 +165,12 @@ const config: Config = {
         {
           to: "/ET-docs/intro",
           position: 'left',
-          label: 'ETロボ',
+          label: 'ETロボコン',
         },
         {
-          to: "/lego-docs/intro",
+          to: "/LEGO-docs/intro",
           position: 'left',
-          label: 'ロボ',
+          label: 'LEGOロボット',
         },
         
 
@@ -226,10 +226,10 @@ const config: Config = {
           title: 'Web docs',
         },
         {
-          title: 'ETロボ docs',
+          title: 'ETロボコン docs',
         },
         {
-          title: 'ロボ docs',
+          title: 'LEGOロボット docs',
         },
         {
           title: '関連リンク',
