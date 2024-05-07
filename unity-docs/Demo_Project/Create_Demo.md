@@ -3,7 +3,7 @@ sidebar_position: 2
 description: `プロジェクトの編集`
 ---
 
-# description: `プロジェクトの編集`
+# description: プロジェクトの編集
 
 ここに掲載されている画像、撮影の順番がぐちゃぐちゃなので、後に作るものが先に映り込んでいたりします。
 
