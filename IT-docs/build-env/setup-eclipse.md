@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
-description: eclipseIDEをインストールしてJavaを効率的に開発しよう
+description: eclipseIDEをインストールして使える状態にしよう
 ---
-
 # EclipseIDEのインストール
 
 Eclipse IDE（Integrated Development Environment）は、Javaをはじめとするさまざまなプログラミング言語でのソフトウェア開発を支援する統合開発環境です。Eclipseは、コードの編集、デバッグ、ビルドなどの開発作業を行うためのツールを提供します。また、機能を拡張するためのプラグインも豊富に提供されており、さまざまなプログラミング言語や開発フレームワークに対応しています。

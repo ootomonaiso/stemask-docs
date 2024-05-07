@@ -5,7 +5,9 @@ description: MySQL Workbenchをインストールしてデータベース管理�
 
 # MySQL Workbenchのインストール
 
-MySQL Workbenchはデータベース問い合わせ言語である`SQL`を用いた管理システムの一つです。オラクル社が現在管理しています。YoutubeやTwitterなどの大規模サービスでも利用されているソフトウェアです。
+MySQL Workbenchはデータベース問い合わせ言語である`SQL`を用いた管理システムの一つで、現在はオラクル社が管理しています。
+
+YoutubeやTwitterなどの大規模サービスでも利用されているソフトウェアです。
 
 ## インストーラーをダウンロード
 
@@ -26,22 +28,30 @@ OS:Microsoft Windows
 そうするとこのようにOracleのアカウントでログインするかサインアップさせようとするページへ遷移します。Oracleのアカウントがなくてもインストーラーをダウンロードすることができるので、下の`No thanks,just start my download`を選択してください。
 
 ## MySQL Workbenchをセットアップ
+
 ダウンロードフォルダにある`mysql-installer-community-8.0.35.0.msi`を起動してください。そうするとMySQL Installerが開きます。
 
 ### タイプ設定をする
+
 ![MySQL Workbenchインストーラー open](./images/13.jpg)
+
 インストーラーが起動するとこのようなウィンドウが開きます。`Choosing a Setup Type`を**Full**に切り替えてください。
 
 ### Installationの実行
+
 ![MySQL Workbenchインストーラー Installation](./images/13.jpg)
+
 インストールされるパッケージは以下の通り
+
 - MySQL Server 8.0.35
 - MySQL Workbench 8.0.34
 - MySQL Shell 8.0.35
 - MySQL Router 8.0.35
 - MySQL Documentation 8.0.35
 - Samples and Examples 8.0.35
+
 タイプ設定の時に**Full**を指定していないとこれがすべてインストールされません。
+
 以上のパッケージのインストールがスケジュールされていることを確認し、**Execute**をクリックしてインストールしてください。
 
 :::warning
@@ -49,5 +59,6 @@ OS:Microsoft Windows
 :::
 
 :::danger
-インストールが終わった後、Nextボタンを連打すると、元々Nextボタンがあったはずの場所にCancelボタンが
+インストールが終わった後、Nextボタンを連打すると、元々Nextボタンがあったはずの場所にCancelボタンが出現し、MySQL Serverのセットアップがキャンセルされてしまいます。MySQL Serverのセットアップがされていないと動きません。
 :::
+

@@ -4,8 +4,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'STEMASK Docs',
-  tagline: 'STEM部員のためのドキュメントサイト',
-  favicon: 'img/favicon.ico',
+  tagline: 'Docuements for STEM members',
+  favicon: 'img/stem.ico',
 
   // サイトのURL
   url: 'https://ask-stem-official.github.io',
@@ -80,7 +80,7 @@ const config: Config = {
     ],
     [
       '@docusaurus/plugin-content-docs',
-     {
+    {
         id: 'web-docs',
         path: 'web-docs',
         routeBasePath: 'web-docs',
@@ -114,9 +114,9 @@ const config: Config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'rego-docs',
-        path: 'rego-docs',
-        routeBasePath: 'rego-docs',
+        id: 'LEGO-docs',
+        path: 'LEGO-docs',
+        routeBasePath: 'LEGO-docs',
         sidebarPath: './sidebars.ts',
         editUrl: 'https://github.com/ASK-STEM-official/stemask-docs/tree/main/',//編集用メニューの遷移先URL
         // ... other options
@@ -134,7 +134,7 @@ const config: Config = {
       title: 'STEMASK Docs',
       logo: {
         alt: 'Logo',
-        src: 'img/logo.svg',
+        src: 'img/stem.svg',
       },
       items: [
         {
@@ -165,12 +165,12 @@ const config: Config = {
         {
           to: "/ET-docs/intro",
           position: 'left',
-          label: 'ETロボ',
+          label: 'ETロボコン',
         },
         {
-          to: "/rego-docs/intro",
+          to: "/LEGO-docs/intro",
           position: 'left',
-          label: 'ロボ',
+          label: 'LEGOロボット',
         },
         
 
@@ -199,6 +199,14 @@ const config: Config = {
               label: '環境構築',
               to: '/unity-docs/category/環境構築',
             },
+            {
+              label: 'よくあるつまずき',
+              to: '/unity-docs/category/よくあるつまずき',
+            },
+            {
+              label: 'デモプロジェクトの作成',
+              to: '/unity-docs/category/デモプロジェクトの作成',
+            },
           ],
         },
         {
@@ -218,10 +226,10 @@ const config: Config = {
           title: 'Web docs',
         },
         {
-          title: 'ETロボ docs',
+          title: 'ETロボコン docs',
         },
         {
-          title: 'ロボ docs',
+          title: 'LEGOロボット docs',
         },
         {
           title: '関連リンク',
