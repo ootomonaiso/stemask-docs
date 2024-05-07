@@ -2,19 +2,19 @@
 sidebar_position: 6
 ---
 
-# Congratulations!
+# おめでとうございます!
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+あなたは**Docusaurusの基礎**を学び、**初期テンプレート**にいくつかの変更を加えました!
 
-Docusaurus has **much more to offer**!
+Docusaurusは**まだまだたくさんの機能があります**!
 
 Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+分かりにくい部分やバグがありましたら [ここで報告してください!](https://github.com/facebook/docusaurus/discussions/4610)
 
-## What's next?
+## 次はどうしよう?
 
-- Read the [official documentation](https://docusaurus.io/)
+- [公式ドキュメント](https://docusaurus.io/)を読む
 - Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
 - Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
 - Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
