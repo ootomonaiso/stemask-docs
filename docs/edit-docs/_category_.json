@@ -1,0 +1,8 @@
+{
+  "label": "編集者向け",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "編集者のための編集者向けドキュメント"
+  }
+}
